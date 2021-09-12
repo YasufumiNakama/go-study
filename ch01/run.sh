@@ -15,3 +15,7 @@ go run echo.go one two three
 go test -run ""
 cd ../
 
+# ex03
+cd ./ex03
+go run echo.go one two three
+

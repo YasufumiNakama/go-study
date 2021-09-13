@@ -28,3 +28,9 @@ echo "===== run ex04 ====="
 cd ./ex04
 go run dup2.go a.txt b.txt c.txt
 cd ../
+
+# ex05
+echo "===== run ex05 ====="
+cd ./ex05
+go run lissajous.go > out.gif
+cd ../

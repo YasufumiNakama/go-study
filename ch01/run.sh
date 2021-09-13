@@ -34,3 +34,9 @@ echo "===== run ex05 ====="
 cd ./ex05
 go run lissajous.go > out.gif
 cd ../
+
+# ex06
+echo "===== run ex06 ====="
+cd ./ex06
+go run lissajous.go > out.gif
+cd ../

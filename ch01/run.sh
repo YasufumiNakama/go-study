@@ -40,3 +40,10 @@ echo "===== run ex06 ====="
 cd ./ex06
 go run lissajous.go > out.gif
 cd ../
+
+# ex07
+echo "===== run ex07 ====="
+cd ./ex07
+go run fetch.go http://www.gopl.io/
+go run fetch.go http://bad.gopl.io/
+cd ../

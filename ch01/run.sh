@@ -54,3 +54,10 @@ cd ./ex08
 go run fetch.go www.gopl.io/
 go run fetch.go bad.gopl.io/
 cd ../
+
+# ex09
+echo "===== run ex09 ====="
+cd ./ex09
+go run fetch.go http://www.gopl.io/
+go run fetch.go http://bad.gopl.io/
+cd ../

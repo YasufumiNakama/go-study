@@ -61,3 +61,11 @@ cd ./ex09
 go run fetch.go http://www.gopl.io/
 go run fetch.go http://bad.gopl.io/
 cd ../
+
+# ex10
+echo "===== run ex10 ====="
+cd ./ex10
+rm *.txt
+go run fetchall.go https://en.wikipedia.org/wiki/Baseball https://ja.wikipedia.org/wiki/野球
+go run fetchall.go https://en.wikipedia.org/wiki/Baseball https://ja.wikipedia.org/wiki/野球
+cd ../

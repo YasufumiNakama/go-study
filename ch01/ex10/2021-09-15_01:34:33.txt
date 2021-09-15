@@ -1,3 +1,0 @@
-0.69s   622936  https://en.wikipedia.org/wiki/Baseball
-0.76s   486953  https://ja.wikipedia.org/wiki/野球
-0.76s elapsed

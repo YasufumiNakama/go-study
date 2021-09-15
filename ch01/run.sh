@@ -69,3 +69,9 @@ rm *.txt
 go run fetchall.go https://en.wikipedia.org/wiki/Baseball https://ja.wikipedia.org/wiki/野球
 go run fetchall.go https://en.wikipedia.org/wiki/Baseball https://ja.wikipedia.org/wiki/野球
 cd ../
+
+# ex11
+echo "===== run ex11 ====="
+cd ./ex11
+go run fetchall.go
+cd ../

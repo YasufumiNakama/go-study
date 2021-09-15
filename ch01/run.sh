@@ -75,3 +75,9 @@ echo "===== run ex11 ====="
 cd ./ex11
 go run fetchall.go
 cd ../
+
+# ex12
+echo "===== run ex12 ====="
+cd ./ex12
+go run server.go &
+cd ../

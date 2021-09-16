@@ -19,3 +19,10 @@ go mod init ex02
 go run main.go -t -l -w 100
 go run main.go # 標準入力
 cd ../
+
+# ex03
+echo "===== run ex03 ====="
+cd ./ex03/popcount
+go mod init popcount
+go test -bench=. 
+cd ../../

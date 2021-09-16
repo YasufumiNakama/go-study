@@ -33,3 +33,10 @@ cd ./ex04/popcount
 go mod init popcount
 go test -bench=. 
 cd ../../
+
+# ex05
+echo "===== run ex05 ====="
+cd ./ex05/popcount
+go mod init popcount
+go test -bench=. 
+cd ../../

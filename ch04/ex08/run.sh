@@ -1,0 +1,1 @@
+go run charcount.go < sample.txt

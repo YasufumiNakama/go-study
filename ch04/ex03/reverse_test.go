@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestCountBitDiff(t *testing.T) {
+func TestReverse(t *testing.T) {
 	var tests = []struct {
 		array []int
 		want  []int

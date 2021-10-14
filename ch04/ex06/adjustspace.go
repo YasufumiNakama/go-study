@@ -13,7 +13,7 @@ func main() {
 
 func adjustspace(slice []byte) []byte {
 	i := 1
-	for j, _ := range slice {
+	for j := range slice {
 		if j == 0 {
 			continue
 		}

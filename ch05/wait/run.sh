@@ -1,0 +1,1 @@
+go run wait.go https://golang.org

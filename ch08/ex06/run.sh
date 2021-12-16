@@ -1,0 +1,1 @@
+go run findlinks.go -depth=1 http://gopl.io/

@@ -20,7 +20,7 @@ func init() {
 }
 
 func main() {
-	server := fmt.Sprintf(":%d", port)
+	server := fmt.Sprintf("localhost:%d", port)
 	listener, err := net.Listen("tcp", server)
 	if err != nil {
 		log.Fatal(err)
@@ -43,3 +43,9 @@ func handleConn(c net.Conn) {
 	}
 	ftp.Serve(ftp.NewConn(c, abs))
 }
+
+
+
+
+
+

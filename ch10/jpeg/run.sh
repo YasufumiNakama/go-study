@@ -1,0 +1,1 @@
+cat ../image/sample.jpg | go run main.go >out.jpg

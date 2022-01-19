@@ -1,0 +1,1 @@
+cat ../image/sample.gif | go run main.go -format jpeg >out.jpg
